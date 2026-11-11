@@ -12,6 +12,10 @@ This page holds the **test releases**. The newest one is under **Releases** on t
 
 Needs Android 10 or newer and a 64-bit ARM phone (almost every phone since 2017).
 
+## If you installed an earlier test build
+
+Version 1.0.0 on this page is a **new app** with its own identity (the earlier test builds were a placeholder), so it does not replace them and cannot read their data. To move over: in the old app open **Settings > Backup & Restore** and save a profile (keep the file), install this version, choose your music folders, let the first scan finish, then load the profile (Backup & Restore > choose the file). Then uninstall the old one. The old app will not offer this version in its own update check.
+
 ## Update
 
 Download the newer `.apk` from Releases and open it: it installs over the old version and keeps your library, playlists and settings. Or, in the app: **Settings > App updates > Check for updates**, which opens the release page for you. The app never checks by itself.
