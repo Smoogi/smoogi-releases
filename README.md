@@ -41,7 +41,9 @@ If Android says the app "conflicts with an existing package", the old copy was s
 
 Settings > Backup & Restore saves one file, wherever you choose, with your settings, playlists, smart playlists, favorites, hidden songs, play history and counts, and your metadata edits and lookup results (optionally the cover pictures). It holds no music. Songs are recognised again on another phone, or after a reinstall, by their audio, file name or title and artist.
 
-Not included: your music files and the details stored inside them, the music folders you chose, the play queue, your online-source keys, and the same-artist/same-album groupings.
+The same-artist and same-album groups you made are included too. Not included: your music files and the details stored inside them, the music folders you chose, the play queue and your online-source keys.
+
+Before an update changes how the app stores its data, the app also copies its database on the phone itself; if an update breaks something, Backup & Restore offers to put that copy back. It stays on the phone, so save a profile somewhere else before updating, to be safe.
 
 ## Known issues
 
