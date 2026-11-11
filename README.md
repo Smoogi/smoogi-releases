@@ -6,15 +6,11 @@ This page holds the **test releases**. The newest one is under **Releases** on t
 
 ## Install
 
-1. Open the newest release and download `music-player-<version>.apk` (the `.sha256` file is only a checksum, you do not install it).
+1. Open the newest release and download `smoogi-music-player-<version>.apk` (the `.sha256` file is only a checksum, you do not install it).
 2. Open the downloaded file. Android may ask once to allow installs from your browser; allow it for this install.
 3. Open **Smoogi** (that is the name under the icon), choose your music folder(s) and allow access to music files.
 
 Needs Android 10 or newer and a 64-bit ARM phone (almost every phone since 2017).
-
-## If you installed an earlier test build
-
-Version 1.0.0 on this page is a **new app** with its own identity (the earlier test builds were a placeholder), so it does not replace them and cannot read their data. To move over: in the old app open **Settings > Backup & Restore** and save a profile (keep the file), install this version, choose your music folders, let the first scan finish, then load the profile (Backup & Restore > choose the file). Then uninstall the old one. The old app will not offer this version in its own update check.
 
 ## Update
 
