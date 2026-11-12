@@ -125,7 +125,7 @@ Nothing here runs by itself: every request is one you pressed.
 
 ## Looks
 
-- **Skins:** Material (default), **Cyberpunk** (a yellow HUD look with a dial that shows the song's progress) and **Frutiger Aero** (glass panes, a glossy play button with a progress ring, glass icon tiles).
+- **Skins:** Material (default), **Cyberpunk** (a yellow HUD look with a dial that shows the song's progress) **Frutiger Aero** (glass panes, a glossy play button with a progress ring, glass icon tiles) and **PC-94** (an old Japanese desktop: dot-matrix lettering, cream bevelled windows and buttons on a night sky with cherry blossoms and Mount Fuji; the player's menu bar opens real screens, and Appearance has an optional Japanese-labels switch for the tab names and the menu). PC-94 also has an optional **PC-98 artwork filter** (off by default, with Soft, PC-98 and Extreme looks): covers are shown with few colours and dithered pixels, like pictures on an early-1990s Japanese PC. Your pictures are never changed.
 - **Material look:** system, light or dark, an accent colour (swatches or your own), how strong the colours are (soft, vibrant, expressive, mono), pure black for OLED screens, and ready-made looks (True black, Ocean, Forest, Sunset, Rose, Violet, Neon, Graphite).
 - Reorder the bottom tabs and the Now Playing buttons.
 - Large system fonts are supported.
