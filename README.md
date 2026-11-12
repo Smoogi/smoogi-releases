@@ -6,6 +6,10 @@
 
 Download the latest version from GitHub Releases.
 
+[![Support on Ko-fi](https://img.shields.io/badge/Support-Ko--fi-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/smoogi)
+
+The app is free. If you like it, a tip on Ko-fi is welcome and entirely optional.
+
 A music player for Android that works fully offline. It plays the music files on your phone, from the folders you choose, and keeps everything it learns about them on the phone: no account, no cloud, no ads, no tracking.
 
 **Contents:** [Install and update](#install-and-update) · [Playing music](#playing-music) · [Queue](#queue) · [Shuffle](#shuffle) · [Sound](#sound) · [Library and browsing](#library-and-browsing) · [Playlists](#playlists) · [Song details and covers](#song-details-and-covers) · [Online lookup](#online-lookup-optional) · [Keeping the library tidy](#keeping-the-library-tidy) · [Statistics](#statistics) · [Looks](#looks) · [Backup and restore](#backup-and-restore) · [Privacy](#privacy) · [Known issues](#known-issues)
@@ -75,7 +79,7 @@ Needs Android 10 or newer and a 64-bit ARM phone (almost every phone since 2017)
 - **Optional deep scan** for folders that Android does not list (for example with a `.nomedia` file).
 - **Rescan** from the button, at start and when you come back to the app, so a song downloaded by another app shows up without doing anything.
 - **Moved or renamed files** are recognised by their audio, so favorites, counts and playlists follow them.
-- **Songs, Browse (Artists and Albums), Playlists, Misc, Settings:** five tabs you can put in your own order. Artists show a fan of their album covers.
+- **Songs, Browse (Artists, Albums, Genres, Years and Folders), Playlists, Misc, Settings:** five tabs you can put in your own order. Artists show a fan of their album covers.
 - **Search** by song, artist, album and genre, fast also in big libraries and with Japanese and other scripts.
 - **Favorites** and **Hidden songs** (hide a song from the library without deleting it; hidden songs keep their place in playlists and can be shown again).
 - **When a file name has no "Artist - Title":** choose whether the folder name or "Unknown Artist" is used.
@@ -111,7 +115,7 @@ Nothing here runs by itself: every request is one you pressed.
 ## Keeping the library tidy
 
 - **Library Health** (Misc): possible duplicates (with their formats and bit rates, so you can see which copy is better), songs with missing details, songs with no cover, songs that could not be read, missing files and hidden songs. Hide or delete from there; nothing is ticked or removed for you.
-- **Same artist or album?** (Misc): finds artists and albums written in more than one way ("Linkin Park" and "Linkin-Park", an album in two folders) and shows them together in Browse. Nothing is changed in your songs, you confirm every group, you can say "not the same", pick groups by hand, ungroup and undo.
+- **Same artist or album?** (Misc): finds artists and albums written in more than one way ("Linkin Park" and "Linkin-Park", an album in two folders) and shows them together in Browse. A grouped artist also counts as one in Statistics, in playlist rules and in the duplicate check. Nothing is changed in your songs, you confirm every group, you can say "not the same", pick groups by hand, ungroup and undo.
 
 ## Statistics
 
@@ -138,6 +142,8 @@ Nothing here runs by itself: every request is one you pressed.
 - your same-artist and same-album groups.
 
 It holds no music. Songs are recognised again on another phone, or after a reinstall, by their audio, file name or title and artist; load it after the first scan has finished. Nothing is wiped when you load a profile: it is added to what is there. A big file (hundreds of megabytes with covers) loads without trouble.
+
+**Automatic backups:** choose a folder (your Google Drive folder, an SD card, any folder a sync app watches), how often (every day, 3 days, week or month) and how many to keep. When you open the app and a backup is due, it saves everything above into that folder, and removes the oldest ones it made. It only runs while the app is open, uses no internet, and **Back up now** does it on the spot. A backup with covers is saved in pieces, so it works however big it gets.
 
 Before an update changes how the app stores its data, the app also copies its own database on the phone, and Backup & Restore offers to put that copy back if the update broke something. It stays on the phone, so save a profile somewhere else too.
 
