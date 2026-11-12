@@ -24,7 +24,7 @@ A music player for Android that works fully offline. It plays the music files on
 
 Needs Android 10 or newer and a 64-bit ARM phone (almost every phone since 2017).
 
-**Updating:** download the newer `.apk` and open it; it installs over the old version and keeps your library, playlists and settings. Or use **Settings > App updates > Check for updates**, which opens the release page for you. The app never checks by itself. Save a profile first (see [Backup and restore](#backup-and-restore)) to be safe.
+**Updating:** download the newer `.apk` and open it; it installs over the old version and keeps your library, playlists and settings. Or use **Settings > App updates > Check for updates**, which opens the release page for you. The app only checks when you press it, unless you switch on **Check once a day** on the same page (off by default; it asks GitHub at most once a day, only while the app is open, and tells you if there is a newer version). Save a profile first (see [Backup and restore](#backup-and-restore)) to be safe.
 
 ---
 
@@ -151,8 +151,8 @@ Before an update changes how the app stores its data, the app also copies its ow
 
 ## Privacy
 
-- No account, no cloud, no analytics, no ads, no background network use. The app does not check for updates, look anything up or send anything on its own.
-- The internet permission is used only when you press something: a lookup (sends the title, artist and album of the song you look up), "Ask other sources" or Test on a source you turned on (sends the artist and title and, for Last.fm and Discogs, your own key), or Check for updates (asks GitHub for the newest release; nothing about you).
+- No account, no cloud, no analytics, no ads, no trackers. Nothing is sent at start-up, and the app looks nothing up on its own. The only thing it can do by itself is the optional once-a-day update check, which is off until you switch it on.
+- The internet permission is used only for things you start: a lookup (sends the title, artist and album of the song you look up), "Ask other sources" or Test on a source you turned on (sends the artist and title and, for Last.fm and Discogs, your own key), or Check for updates, by button or, if you switched it on, once a day while the app is open (asks GitHub for the newest release; nothing about you).
 - Other permissions: music files (to play them), notifications and a foreground service (the playback notification, and a running batch lookup), and "modify system settings" (only for Set as ringtone).
 - Your music files are only read. Everything the app adds (edits, lookups, covers, playlists, counts) is in the app's own storage, which Android removes when you uninstall.
 
