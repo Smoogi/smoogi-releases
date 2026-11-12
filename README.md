@@ -1,5 +1,12 @@
 # Smoogi's Music Player
 
+### 📥 Download
+
+[![Download Latest Release](https://img.shields.io/badge/Download-Latest%20APK-2ea44f?style=for-the-badge&logo=android)](https://github.com/Smoogi/smoogi-releases/releases/latest)
+
+Download the latest version from GitHub Releases.
+
+
 A free music player for Android that works fully offline. It plays the music files that are on your phone, in the folders you choose, and keeps everything it learns about them on the phone.
 
 This page holds the **test releases**. The newest one is under **Releases** on the right.
