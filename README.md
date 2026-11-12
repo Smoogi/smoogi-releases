@@ -15,15 +15,13 @@ This page holds the **test releases**. The newest one is under **Releases** on t
 
 1. Open the newest release and download `smoogi-music-player-<version>.apk` (the `.sha256` file is only a checksum, you do not install it).
 2. Open the downloaded file. Android may ask once to allow installs from your browser; allow it for this install.
-3. Open **Smoogi** (that is the name under the icon), choose your music folder(s) and allow access to music files.
+3. Open **Smoogi**, choose your music folder(s) and allow access to music files.
 
 Needs Android 10 or newer and a 64-bit ARM phone (almost every phone since 2017).
 
 ## Update
 
 Download the newer `.apk` from Releases and open it: it installs over the old version and keeps your library, playlists and settings. Or, in the app: **Settings > App updates > Check for updates**, which opens the release page for you. The app never checks by itself.
-
-If Android says the app "conflicts with an existing package", the old copy was signed with a different key: uninstall it once (Backup & Restore first, see below) and install again.
 
 ## What it does
 
@@ -54,7 +52,7 @@ Before an update changes how the app stores its data, the app also copies its da
 
 ## Known issues
 
-- Cover art on a car's display over Bluetooth depends on the phone's Bluetooth; on at least one recent Samsung update it does not show for any player, not only this one.
+- Cover art on a car's display over Bluetooth depends on the phone's Bluetooth.
 - This is a test version: please expect rough edges and tell me about them.
 
 ## Problems and ideas
