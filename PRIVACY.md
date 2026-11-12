@@ -30,6 +30,7 @@ Only when you press the button for it. Nothing is sent in the background or at s
 |---|---|---|
 | Search online / Batch lookup | musicbrainz.org, and coverartarchive.org for covers | the title, artist and album of the song(s) you look up |
 | Ask other sources, or Test, on a source you switched on | query.wikidata.org (Wikidata), ws.audioscrobbler.com (Last.fm), api.discogs.com (Discogs), www.theaudiodb.com (TheAudioDB) | the artist and title of the song (for Wikidata, the MusicBrainz ids of the match); for Last.fm, Discogs and optionally TheAudioDB, the key you pasted |
+| Support the app | ko-fi.com, in your browser | nothing from the app: it only opens the page; Ko-fi's own policy applies there |
 | Check for updates | api.github.com | a request for the newest release of the app's releases page; nothing about you |
 
 Those services have their own privacy policies and may log the request as any web service does (for example your IP address). The developer does not receive or see these requests.
