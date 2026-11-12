@@ -6,7 +6,7 @@
 
 Download the latest version from GitHub Releases.
 
-About
+## About
 
 
 Smoogi's Music Player is a free, offline music player for Android that I originally made for myself because I couldn't find one that worked exactly how I wanted.
