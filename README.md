@@ -12,7 +12,7 @@ Download the latest version from GitHub Releases.
 Smoogi's Music Player is a free, offline music player for Android that I originally made for myself because I couldn't find one that worked exactly how I wanted.
 
 
-The main feature is Smart Shuffle, which lets you adjust how often favorites, newly added songs, and tracks you haven't listened to in a while show up. You can also reduce the chances of recently played or frequently skipped songs appearing.
+The main feature is **Smart Shuffle**, which lets you adjust how often favorites, newly added songs, and tracks you haven't listened to in a while show up. You can also reduce the chances of recently played or frequently skipped songs appearing.
 
 
 Over time, I've added quite a few other features:
@@ -20,16 +20,16 @@ Over time, I've added quite a few other features:
 
 
 
-Playback: Multiple queues, gapless playback, volume normalization, equalizer, silence skipping, and more.
+- **Playback:** Multiple queues, gapless playback, volume normalization, equalizer, silence skipping, and more.
 
 
-Library: Duplicate detection, metadata editing, batch lookup, and tools for organizing your music.
+- **Library:** Duplicate detection, metadata editing, batch lookup, and tools for organizing your music.
 
 
-Playlists: Regular playlists and smart playlists that update automatically based on your rules.
+- **Playlists:** Regular playlists and smart playlists that update automatically based on your rules.
 
 
-Customization: Different UI skins, themes, and customizable controls.
+- **Customization:** Different UI skins, themes, and customizable controls.
 
 
 
