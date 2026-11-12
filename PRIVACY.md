@@ -39,13 +39,13 @@ While a song plays, Android shares its title, artist and cover with the lock scr
 
 ## When the app uses the internet
 
-Only when you start it: by pressing a button, or by starting a batch lookup. Nothing is sent at start-up, and the app makes no requests on its own in the background.
+Only when you start it: by pressing a button, or by starting a batch lookup. The one exception is the optional **Check once a day** in Settings > App updates, which is off until you switch it on. Nothing else is sent at start-up, and the app makes no requests while it is closed.
 
 | What you start | Where the request goes | What is sent |
 |---|---|---|
 | Search online / Batch lookup | musicbrainz.org, and coverartarchive.org for covers (which may forward the picture request to the Internet Archive, archive.org) | the title, artist and album of the song(s) you look up; for covers, the id of the matched release |
 | Ask other sources, or Test, on a source you switched on | query.wikidata.org (Wikidata), ws.audioscrobbler.com (Last.fm), api.discogs.com (Discogs), www.theaudiodb.com (TheAudioDB) | the artist and title of the song (for Wikidata, the MusicBrainz ids of the match); for Last.fm and Discogs the key you pasted, and for TheAudioDB your key if you pasted one, otherwise its public test key |
-| Check for updates | api.github.com | a request for the newest release of the app's releases page; nothing about you |
+| Check for updates (button), or Check once a day if you switched it on (at most once every 24 hours, only while the app is open) | api.github.com | a request for the newest release of the app's releases page; nothing about you |
 | Support the app, Privacy policy | ko-fi.com or github.com, in your browser | nothing from the app: it only opens the page, and that site's own policy applies there |
 
 A **batch lookup** searches up to 100 songs one after another. If you lock the phone or switch to another app while it runs, it keeps going, with its notification showing, until it finishes, you tap Stop, or you leave its screen. Applying the matches you ticked (which can download covers) also continues in the background until it is done.
