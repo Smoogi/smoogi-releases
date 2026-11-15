@@ -1,6 +1,6 @@
 # Privacy policy: Smoogi's Music Player
 
-Last updated: 12 November 2026
+Last updated: 15 November 2026
 
 **In short:** the app has no accounts, no analytics, no crash reporting, no advertising and no trackers, and the developer receives nothing from it. Playing music and managing your library work fully offline. The app uses the internet only for features you start yourself, and then it sends only what is listed below.
 
@@ -11,9 +11,10 @@ Everything the app learns or you create is stored in the app's own private stora
 - the list of your songs and what it read from them (titles, artists, albums, covers, lengths),
 - your playlists, favorites, hidden songs, play history and counts,
 - your edits to song details, covers you chose or downloaded, and results of lookups you applied,
+- lyrics you added to a song (the text of a `.lrc` file you picked, or lyrics you chose to keep from an online search),
 - your settings, and the keys you pasted for optional sources (see below).
 
-Your music files are only read during playing, scanning and lookups. Edits to song details are kept in the app's own storage; the app does not write them into your audio files. The one exception to "only read" is deleting: if you choose **Delete** on a song, the app asks Android to delete that file, and Android asks you to confirm.
+Your music files are only read during playing, scanning and lookups. The app also reads a lyrics file (`.lrc`) that sits next to a song, in the folders you chose; it never writes to or changes it. Edits to song details are kept in the app's own storage; the app does not write them into your audio files. The one exception to "only read" is deleting: if you choose **Delete** on a song, the app asks Android to delete that file, and Android asks you to confirm.
 
 The app turns off Android's automatic backup and device-to-device transfer for its data. Its data is not uploaded to Google or any other cloud by the app.
 
@@ -45,8 +46,11 @@ Only when you start it: by pressing a button, or by starting a batch lookup. The
 |---|---|---|
 | Search online / Batch lookup | musicbrainz.org, and coverartarchive.org for covers (which may forward the picture request to the Internet Archive, archive.org) | the title, artist and album of the song(s) you look up; for covers, the id of the matched release |
 | Ask other sources, or Test, on a source you switched on | query.wikidata.org (Wikidata), ws.audioscrobbler.com (Last.fm), api.discogs.com (Discogs), www.theaudiodb.com (TheAudioDB) | the artist and title of the song (for Wikidata, the MusicBrainz ids of the match); for Last.fm and Discogs the key you pasted, and for TheAudioDB your key if you pasted one, otherwise its public test key |
+| Find lyrics online (Misc), after you switched it on on that page, then Search | lrclib.net (LRCLIB, a free, community-run lyrics database) | the title and artist of the song as shown on that page, the album if you typed one, and the app's name and version in the request header; no key and no account |
 | Check for updates (button), or Check once a day if you switched it on (at most once every 24 hours, only while the app is open) | api.github.com | a request for the newest release of the app's releases page; nothing about you |
 | Support the app, Privacy policy | ko-fi.com or github.com, in your browser | nothing from the app: it only opens the page, and that site's own policy applies there |
+
+Lyrics found online are contributed by the users of lrclib.net and may be protected by copyright. The app shows them to you and keeps one on your phone only if you tap **Use these lyrics**; nothing is stored by a search alone. If a song already has lyrics, the app asks before replacing them.
 
 A **batch lookup** searches up to 100 songs one after another. If you lock the phone or switch to another app while it runs, it keeps going, with its notification showing, until it finishes, you tap Stop, or you leave its screen. Applying the matches you ticked (which can download covers) also continues in the background until it is done.
 
@@ -56,7 +60,7 @@ Keys you paste for Last.fm, Discogs or TheAudioDB are stored as plain text in th
 
 ## Backups
 
-**Backup & Restore** writes a file where you choose (or, with **Automatic backups**, into the folder you chose, when the app is open and a backup is due). The file is yours and the app does not upload it anywhere. It holds your playlists, favorites, play history, edits and settings, and cover pictures if you include them; it does not hold your music files or your pasted keys. Before an update that changes how data is stored, the app also keeps a copy of its own database in its private storage. That copy includes your pasted keys and is removed on uninstall.
+**Backup & Restore** writes a file where you choose (or, with **Automatic backups**, into the folder you chose, when the app is open and a backup is due). The file is yours and the app does not upload it anywhere. It holds your playlists, favorites, play history, edits and settings, and cover pictures if you include them; it does not hold your music files, your pasted keys or the lyrics you added. Before an update that changes how data is stored, the app also keeps a copy of its own database in its private storage. That copy includes your pasted keys and is removed on uninstall.
 
 ## Children
 
