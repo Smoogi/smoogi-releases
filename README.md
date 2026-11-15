@@ -103,12 +103,19 @@ Needs Android 10 or newer and a 64-bit ARM phone (almost every phone since 2017)
 - **Covers** from the tags are shown everywhere (lists, artists, albums, notification). Choose a picture of your own for a song, or take the cover from an online match.
 - **Copy these details to other songs** (for example the album of one song to the rest of the album).
 
+## Lyrics
+
+- **Lyrics that follow the song:** on the player, swipe the cover sideways to see the lyrics; the line being sung is highlighted and kept in view, and it follows seeking, pausing and skipping. Two small marks under the cover show that there is a lyrics page. Songs without lyrics simply have no second page.
+- **From a `.lrc` file next to the song** (same name, ending in `.lrc`, in a folder you added): found by itself, read only, and understood in the common encodings, including Shift-JIS and UTF-16.
+- **Add lyrics** (the menu of a song, long-press): pick any `.lrc` or text file, whatever it is called or wherever it is. The app keeps its own copy for that song; your files are not changed. **Remove imported lyrics** is in the same menu.
+
 ## Online lookup (optional)
 
 Nothing here runs by itself: every request is one you pressed.
 
 - **Search a song online** (MusicBrainz and the Cover Art Archive): the best match is ranked by title, artist and the song's own length (so the studio recording comes before concert versions), artists credited in another script are found, and you choose which details and which cover to take. Nothing is applied without your tick; details that would replace something real are not ticked and ask you first.
 - **Batch lookup** for up to 100 songs at once, one search at a time and at the pace the service allows. Every result is saved per song, so a stop, a lost connection or a closed app loses nothing: Resume, Retry failed, and "Select next 100". A pause the service asks for is waited out. You review the matches and apply the ones you tick. **It keeps going while the phone is locked,** with a notification that shows the progress and a Stop button.
+- **Find lyrics online** (Misc, LRCLIB): off until you switch it on on that page. A press of Search sends the title, artist and the album you typed to lrclib.net; you read the answers, and only **Use these lyrics** keeps one for the playing song (and asks first if the song already has lyrics). Lyrics are often protected by copyright; use them for yourself.
 - Library Health can hand the songs it found (for example "missing details") straight to the lookup.
 - **Other sources you switch on yourself** (Settings > Online sources): Wikidata, Last.fm, Discogs and TheAudioDB add genres, a year or an artist's name in its own script to a match. Last.fm and Discogs need your own free key, which stays on your phone and is not part of backups.
 
@@ -153,7 +160,7 @@ Before an update changes how the app stores its data, the app also copies its ow
 ## Privacy
 
 - No account, no cloud, no analytics, no ads, no trackers. Nothing is sent at start-up, and the app looks nothing up on its own. The only thing it can do by itself is the optional once-a-day update check, which is off until you switch it on.
-- The internet permission is used only for things you start: a lookup (sends the title, artist and album of the song you look up), "Ask other sources" or Test on a source you turned on (sends the artist and title and, for Last.fm and Discogs, your own key), or Check for updates, by button or, if you switched it on, once a day while the app is open (asks GitHub for the newest release; nothing about you).
+- The internet permission is used only for things you start: a lookup (sends the title, artist and album of the song you look up), "Ask other sources" or Test on a source you turned on (sends the artist and title and, for Last.fm and Discogs, your own key), "Find lyrics online" after you switched it on (sends the title, artist and any album you typed to lrclib.net), or Check for updates, by button or, if you switched it on, once a day while the app is open (asks GitHub for the newest release; nothing about you).
 - Other permissions: music files (to play them), notifications and a foreground service (the playback notification, and a running batch lookup), and "modify system settings" (only for Set as ringtone).
 - Your music files are only read. Everything the app adds (edits, lookups, covers, playlists, counts) is in the app's own storage, which Android removes when you uninstall.
 
