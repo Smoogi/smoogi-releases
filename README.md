@@ -1,6 +1,6 @@
 # Smoogi's Music Player
 
-### Download
+### 📥 Download
 
 [![Download Latest Release](https://img.shields.io/badge/Download-Latest%20APK-2ea44f?style=for-the-badge&logo=android)](https://github.com/Smoogi/smoogi-releases/releases/latest)
 
@@ -26,6 +26,12 @@ A music player for Android that works fully offline. It plays the music files on
 - **Backup and restore**, also automatic.
 
 Everything in detail: the **[feature guide](FEATURES.md)**.
+
+## Screenshots
+
+<p align="center"><img src="screenshots/pc94-now-playing.webp" alt="Now Playing in the PC-94 skin" width="320"></p>
+
+<p align="center">Now Playing in the PC-94 skin.</p>
 
 ## Install and update
 
