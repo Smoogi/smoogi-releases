@@ -1,6 +1,6 @@
 # Smoogi's Music Player
 
-### 📥 Download
+### Download
 
 [![Download Latest Release](https://img.shields.io/badge/Download-Latest%20APK-2ea44f?style=for-the-badge&logo=android)](https://github.com/Smoogi/smoogi-releases/releases/latest)
 
