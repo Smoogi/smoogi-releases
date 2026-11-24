@@ -53,7 +53,7 @@ Full details in the **[privacy policy](PRIVACY.md)**, also in the app under Sett
 
 ## Known issues
 
-- Cover art on a car's display over Bluetooth depends on the phone's Bluetooth stack; on at least one recent Samsung update it does not show for any player, not only this one. Settings > Diagnostics > Media session log shows what the app hands to Android.
+- Cover art on a car's display over Bluetooth depends on the phone's Bluetooth stack; on at least one recent Samsung update it does not show for any player, not only this one.
 
 ## Licence
 
